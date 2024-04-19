@@ -78,8 +78,8 @@
     "dotenv": "^10.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "yarn i18n:compile && react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "yarn i18n:compile && react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "yarn i18n:compile",
